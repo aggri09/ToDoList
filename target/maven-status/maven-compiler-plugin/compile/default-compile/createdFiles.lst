@@ -1,0 +1,5 @@
+com/example/todo/resources/TaskResource.class
+com/example/todo/resources/TaskDao.class
+com/example/todo/core/Task.class
+com/example/todo/TaskConfiguration.class
+com/example/todo/TaskApplication.class

@@ -1,0 +1,16 @@
+logging:
+  level: INFO
+  loggers:
+    com.example: DEBUG
+server:
+  applicationConnectors:
+    - type: http
+      port: 8000
+  adminConnectors:
+    - type: http
+      port: 8081
+
+dbUrl: jdbc:mysql://localhost:3306/taskdb
+dbUsername: root
+dbPassword: Aachman@2048
+

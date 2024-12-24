@@ -1,9 +1,9 @@
 package com.example.todo;
 
-import com.example.todo.resources.TaskDao;
+import com.example.todo.config.TaskConfiguration;
+import com.example.todo.dao.TaskDao;
 import com.example.todo.resources.TaskResource;
 import io.dropwizard.Application;
-
 import io.dropwizard.setup.Environment;
 
 public class TaskApplication extends Application<TaskConfiguration> {

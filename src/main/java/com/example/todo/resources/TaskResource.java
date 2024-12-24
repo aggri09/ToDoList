@@ -1,6 +1,7 @@
 package com.example.todo.resources;
 
-import com.example.todo.core.Task;
+import com.example.todo.dao.TaskDao;
+import com.example.todo.models.Task;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
